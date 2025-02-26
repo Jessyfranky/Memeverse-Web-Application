@@ -1,0 +1,25 @@
+/* src/styles/MemeGeneratorButton.css */
+.meme-gen-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px var(--card-shadow);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .meme-gen-btn:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.1);
+  }
+  
+  .meme-gen-btn:focus {
+    outline: none;
+  }
+  

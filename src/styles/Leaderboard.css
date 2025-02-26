@@ -1,0 +1,44 @@
+/* src/styles/Leaderboard.css */
+.leaderboard {
+    padding: 2rem 0;
+  }
+  
+  .leaderboard-section {
+    margin-bottom: 2rem;
+  }
+  
+  .leaderboard-section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  .grid-leaderboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .rankings {
+    list-style-type: decimal;
+    padding-left: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .rankings li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--card-shadow);
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .score {
+    color: var(--secondary-color);
+  }
+  

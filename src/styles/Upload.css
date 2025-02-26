@@ -1,0 +1,85 @@
+.upload {
+    padding: 2rem 0;
+  }
+  
+  .upload h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .upload-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .upload-box {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--card-shadow);
+    transition: transform 0.3s ease;
+  }
+  
+  .upload-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .upload-box h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .upload-box input[type="file"],
+  .upload-box input[type="text"],
+  .upload-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .upload-box textarea {
+    resize: vertical;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .preview {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .preview img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .note {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
+  /* Additional styling for upload button and success message */
+.upload-btn {
+    margin-top: 1rem;
+  }
+  
+  .success-msg {
+    margin-top: 0.5rem;
+    color: green;
+    font-weight: bold;
+  }
+  
